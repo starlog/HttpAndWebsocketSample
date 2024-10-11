@@ -18,3 +18,11 @@ Target .net version: 4.7.2
 Node.js, npm 설치되어 있어야 함.  
 해당 폴더에서 npm install  
 node test.js 로 실행  
+
+**실행 방법**  
+이 repository를 clone 한다. (git clone https://github.com/starlog/HttpAndWebsocketSample.git)  
+Release.zip을 풀어서 들어있는 TrayIconAppTest.exe를 실행한다. Tray에 어플리케이션이 실행된다.  어플리케이션 이름은 "WebSocket and HTTP Server" 이다.  
+nodeClient 폴더로 이동해서 "npm install"로 라이브러리 설치를 하고, "node test.js"로 테스트 웹소켓 클라이언트를 실행한다.  
+웹 브라우져나 postman으로 http://localhost:8080?data=1234567890 (GET)로 연결한다.   
+웹소켓 클라이언트가 {"data":"1234567890" } 메시지를 수신하는 것을 확인한다.  
+
