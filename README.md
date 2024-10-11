@@ -11,7 +11,8 @@ nodeClient: node.js websocket 테스트 클라이언트
 **어플리케이션 컴파일:**  
 Visual Studio Community 2022  
 Nuget package: Newtonsoft.Json  
-Target .net version: 4.7.2
+Target .net version: 4.7.2  
+(Release.zip에 실행 파일 들어있음)  
 
 **node.js 어플리케이션 실행**  
 Node.js, npm 설치되어 있어야 함.  
